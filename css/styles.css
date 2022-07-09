@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Apex-ExtraBold;
+    src: url("../fonts/Apex-ExtraBold.ttf");
+  }
+
+  @font-face {
+    font-family: Freeroad-Regular;
+    src: url("../fonts/Freeroad-Regular.ttf")
+  }
+
+  @font-face {
+    font-family: Freeroad-Light;
+    src: url("../fonts/Freeroad-Light.ttf");
+  }
+
+  h1 { 
+    font-family: 'Apex-ExtraBold';
+  }
+
+  h2, table { 
+    font-family:'Freeroad-Regular'; 
+  }
+
+  body {
+    font-family:'Freeroad-Light';
+  }
+
+.navbar-expand-xl  {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-family: 'Freeroad-Light';
+}
+
+ .nav-link{
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #C10202;
+  text-decoration: underline;
+}
+
+.nav-link:active {
+  color: #ffffff;
+  background-color: #C10202;
+}
+
+ .jumbotron {
+  display: flex;
+  background-color: black;
+  color: white; 
+ }
+
+
+.jumbotron h1 {
+  font-size: 96px;
+}
+
+.jumbotron p {
+  font-size: 24px;
+  line-height: 23px;
+  text-align: left;
+  letter-spacing: 0px;
+  
+}
+
+.jumbotron img{ 
+  transform: translate(-100px);
+
+}
+
+/* #ashQuote {
+  display:flex; 
+  text-align: center; 
+} */
+
+#PSN {
+  display:flex; 
+  text-align: center; 
+}
+
+#ashesToAsh h1 { 
+  display:flex; 
+  letter-spacing: 0%;
+  text-align: center; 
+  font-size: 64px;
+  font-family: 'Apex-ExtraBold';
+  color: white; 
+}
+
+
+#ashesToAsh p { 
+  font-size: 32px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: white; 
+}
+

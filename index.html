@@ -5,17 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qetsia's Apex Legend</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <header class="container">
+
+    <!-- <Navigation Bar with Apex Logo > -->
+        <nav class="navbar navbar-expand-xl" style="background-color: black" > 
+            <a class="navbar-brand" href="#"> <img src="images/Apex-Legends-logo-white.png" alt="Apex Legends Typeface Logo in White" width="188.61" height="106"> </a>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Ash</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Weapons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gameplay</a>
+              </li>
+              <li class="nav-item">
+                <a id='PSN' class="nav-link">Playstation Network<br>(PSN)</a>
+              </li>
+            </ul>
+
+
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-fill">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Ash</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Weapons</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gameplay</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id='PSN' class="nav-link">Playstation Network<br>(PSN)</a>
+                  </li>
+                </ul>
+              </div>
+            </div> -->
+        </nav>
+
+
+ <!-- <Ash Biography + Table Summary + Quote> -->
+    <section class="jumbotron"> 
+      <div class="container-fluid"> 
         <div class="row"> 
-            <h1>Hello,World</h1>
+          <div class="col-sm-6 btn holder"> 
+            <img src="images/ash-body-image2-container-1png.png" alt="Ash Apex Legends Standing in Default Skin" width="883" height="1080"> 
+          </div>
+          
+          <div class="col-sm-6"> 
+            <h1>Ash</h1>
+            <h2>Incisive Instigator</h2>
+            <p> Born in the unforgiving Frontier, Dr. Ashleigh Reid-still very much a human- learned early that the only person who was going to look out for her was herself. One day, she was hired by a mercenary group for a delicate job: steal an experimental fuel source being researched in the Outlands city of Olympus. It was the perfect job for Reid, who infiltrated and psychologically manipulated the researchers for years. When the lab self-destructed, she died.</p>
+            <p> And didn’t.</p>
+            <p> Her brain was put in a simulacrum shell, but in the process, she lost years of memories, and the trauma of her “death” caused her personality to fracture. Ash is the embodiment of the cold, perfectionistic, power-hungry side of Dr. Reid. But behind that confident facade, something sinister is simmering. After an encounter with Horizon that overrides Ash’s simulacrum programming, the framework that kept the vulnerable--yet intelligent--Leigh personality dormant has begun to crack. Ash joins the Games to prove she has transcended all humanity. Leigh’s determined to prove her wrong.</p>
+            
+           <!-- <table class="table caption-top">
+              <tbody>
+                  <tr>
+                      <th scope="row"></th>
+                      <td><strong>Real Name:</strong></td>
+                      <td>Dr. Ashleigh Reid</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td><strong>Age:</strong></td>
+                    <td>121</td>
+                  </tr>
 
+                  <tr>
+                    <th scope="row"></th>
+                    <td><strong>Home World:</strong></td>
+                    <td>Unknown</td>
+                  </tr>
 
+                  <tr>
+                    <th scope="row"></th>
+                    <td><strong>Tactical Ability:</strong></td>
+                    <td>Arc Snare</td>
+                </tr>
+
+                <tr>
+                  <th scope="row"></th>
+                  <td><strong>Passive Ability:</strong></td>
+                  <td>Marked for Death</td>
+               </tr>
+
+              <tr>
+                  <th scope="row"></th>
+                  <td><strong>Ultimate Ability:</strong></td>
+                  <td>Phase Breach</td>
+              </tr>
+           </tbody>
+          </table>  -->
         </div>
-    </header>
-    
+      </div>
+    </section>
+
+     <!-- <Ash Gif + "From Ashes to Ash"> -->
+      <section class="container-fluid" style="background-color: #707070">
+        <div class="row"> 
+          <div class="col-sm-6"> 
+            <img src="images/ash-header.gif" alt="Ash Apex Legends Close Up to Camera"> 
+          </div>
+        </div>
+
+        <div class="row"> 
+          <div id="ashesToAsh" class="col-sm-6"> 
+            <h1>"From Ashes to Ash"</h1>
+            <p>Ash  was introduced in Season 11. Ash can be described as a high-precision Legend. Her tactical ability,  Arc Snare, throws a device that deals damage and temporarily snares enemies. Her passive ability, Marked for Death, allows her to locate the squad that killed a player by interacting with their Death Box. Her ultimate ability, Phase Breach, opens a linear one-way portal between two locations.
+            </p> 
+          </div>
+        </div>
+
+        <div class="col-sm-6"> 
+          <img src="images/ash-abilities.png" alt="Ash's Three Abilities with their Icons and Text Descriptions"> 
+        </div>
+      </div>
+      </section>
+
+
+
 </body>
 </html>
 

@@ -1,0 +1,21 @@
+//custom variables 
+@font-face {
+    font-family: Apex-ExtraBold;
+    src: url("../fonts/Apex-ExtraBold.ttf");
+  }
+
+  @font-face {
+    font-family: Freeroad-Light;
+    src: url("../fonts/Freeroad-Light.ttf");
+  }
+
+  @font-face {
+    font-family: Freeroad-Regular;
+    src: url("../fonts/Freeroad-Regular.ttf")
+  }
+
+  
+  $headings-font-family: 'Apex-ExtraBold', 'Freeroad-Light', 'Freeroad-Regular';
+
+//import bootstrap 
+@import '../node_modules/bootstrap/scss/bootstrap.scss'; 
