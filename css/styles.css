@@ -15,6 +15,7 @@
 
   h1 { 
     font-family: 'Apex-ExtraBold';
+    color: white; 
   }
 
   h2, table { 
@@ -23,6 +24,8 @@
 
   body {
     font-family:'Freeroad-Light';
+    line-height: 23px;
+
   }
 
 .navbar-expand-xl  {
@@ -70,25 +73,33 @@
 
 }
 
-/* #ashQuote {
+.table { 
+  border-color: #C10202;
+  font-family: 'Freeroad-Light';
+  color: #ffffff;
+  font-size: 24px;
+}
+
+
+#ashQuote {
   display:flex; 
   text-align: center; 
-} */
+  color: #C10202;
+  padding-top: 52px; 
+}
 
 #PSN {
   display:flex; 
   text-align: center; 
 }
 
-#ashesToAsh h1 { 
-  display:flex; 
+ #ashesToAsh h1 { 
+  text-align: center;
   letter-spacing: 0%;
-  text-align: center; 
   font-size: 64px;
   font-family: 'Apex-ExtraBold';
   color: white; 
-}
-
+} 
 
 #ashesToAsh p { 
   font-size: 32px;
@@ -98,3 +109,10 @@
   color: white; 
 }
 
+
+.container-fluid {
+  padding-top: 65px;
+  padding-right: 0px; 
+  padding-left: 0px;
+  padding-bottom: 90px; 
+}
